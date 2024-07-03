@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(153, 153, 153);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+aside {
+    float: right;
+    font-size: x-large;
+    font-family: Helvetica, arial, sans-serif;
+    margin-bottom: 30px;
+    width: auto;
+}
+
+aside a{
+    background: #008099 ;
+    color: white;
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 18px 50px 18px 50px;
+    margin-left: 50px;
+}
+
+aside div {
+    margin-top: 40px;
+}
+
+aside h4 {
+    color: blue;
+}
+
+footer p {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+footer div {
+    text-align: center;
+    padding-top: 5px;
+}
+
+h5 {
+    font-size: larger;
+    color: blue;
+
+}
+
+.brown {
+    color: white;
+    background-color: rgb(153, 153, 153);
+}
+
+.brown,
+.brown2,
+.brown3,
+.brown4 {
+    padding: 50px;
+
+}
+
+.brown2 {
+    padding-top: 3px;
+    font-size: x-large;
+
+}
+
+.brown3 {
+    padding-top: 5px;
+
+}
+
+.footer {
+    padding-top: 150px;
+
+}
+
+@media screen and (max-width:800px) {
+    .brown3 {
+        display: inline
+    }
+}
+
+.night {
+    background-color: black;
+    color: white;
+}
+
+
+.brown nav {
+    width: 50%;
+    float: right;
+
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(153, 153, 153);
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav {
+    float: left;
+}
+
+.nav a:hover {
+    background-color: blue;
+    color: white;
+}
+nav{
+    padding-left: 50px;
+}
+aside{
+    padding-right: 50px;
+}
